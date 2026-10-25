@@ -1,7 +1,16 @@
 // Write a function that returns a message using template literals.
 
+
+
 function getMessage(name, age) {
-    // Write your code here
+    return`Hello, my name is ${name}and iam${age} years old.;`
+   
+}
+console.log(getMessage("Suba",20));
+
+module.exports = getMessage;
+
+
 }
 
 // Don't change the code below
